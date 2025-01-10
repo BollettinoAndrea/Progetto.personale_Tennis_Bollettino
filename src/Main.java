@@ -35,42 +35,17 @@ public class Main {
         base.add(new Giocatore("John McEnroe", 0, 0, 3, 4, 70, 86, 82)); //giocatore 11
         base.add(new Giocatore("Pete Sampras", 2, 0, 7, 5, 64, 90, 80)); //giocatore 12
         base.add(new Giocatore("Andre Agassi", 4, 1, 1, 2, 70, 75, 79)); //giocatore 13
-        base.add(new Giocatore("Giocatore1", 1, 0, 0, 1, 60, 50, 70)); //giocatore 14
-        base.add(new Giocatore("Giocatore1", 1, 0, 0, 1, 60, 50, 70)); //giocatore 15
-        base.add(new Giocatore("Giocatore1", 1, 0, 0, 1, 60, 50, 70)); //giocatore 16
-        base.add(new Giocatore("Giocatore1", 1, 0, 0, 1, 60, 50, 70)); //giocatore 17
-        base.add(new Giocatore("Giocatore1", 1, 0, 0, 1, 60, 50, 70)); //giocatore 18
-        base.add(new Giocatore("Giocatore1", 1, 0, 0, 1, 60, 50, 70)); //giocatore 19
-        base.add(new Giocatore("Giocatore1", 1, 0, 0, 1, 60, 50, 70)); //giocatore 20
-        base.add(new Giocatore("Giocatore1", 1, 0, 0, 1, 60, 50, 70)); //giocatore 21
-        base.add(new Giocatore("Giocatore1", 1, 0, 0, 1, 60, 50, 70)); //giocatore 22
-        base.add(new Giocatore("Giocatore1", 1, 0, 0, 1, 60, 50, 70)); //giocatore 23
-        base.add(new Giocatore("Giocatore1", 1, 0, 0, 1, 60, 50, 70)); //giocatore 24
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        base.add(new Giocatore("Andy Murray", 0, 0, 2, 1, 76, 80, 77)); //giocatore 14
+        base.add(new Giocatore("Juan Martìn Del Potro", 0, 0, 0, 1, 70, 70, 72)); //giocatore 15
+        base.add(new Giocatore("Fabio Fognini", 0, 0, 0, 0, 54, 33, 45)); //giocatore 16
+        base.add(new Giocatore("Adriano Panatta", 0, 1, 0, 0, 65, 50, 55)); //giocatore 17
+        base.add(new Giocatore("Dominic thiem", 0, 0, 0, 1, 76, 50, 65)); //giocatore 18
+        base.add(new Giocatore("Mattia Arnaldi", 0, 0, 0, 0, 65, 50, 60)); //giocatore 19
+        base.add(new Giocatore("Nick Kyrgios", 0, 0, 0, 0, 55, 64, 64)); //giocatore 20
+        base.add(new Giocatore("David Ferrer", 0, 0, 0, 0, 76, 60, 70)); //giocatore 21
+        base.add(new Giocatore("Ben Shelton", 0, 0, 0, 0, 65, 50, 60)); //giocatore 22
+        base.add(new Giocatore("Alex De Minaur", 0, 0, 0, 0, 70, 75, 80)); //giocatore 23
+        base.add(new Giocatore("Andrea Bollettino", 0, 0, 0, 0, 85, 33, 70)); //giocatore 24
 
         for (int i = 5; i <= 24; i++) {
             base.add(new Giocatore("Giocatore" + i,
