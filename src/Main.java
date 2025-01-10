@@ -12,7 +12,7 @@ public class Main {
 
         gestore.visualizzaVincitori(listaGiocatori, torneo);
 
-        gestore.inserisciNuoviGiocatori(listaGiocatori, 8, sc);
+        gestore.inserisciNuoviGiocatori(listaGiocatori, 2, sc);
 
         gestore.simulaTorneo(listaGiocatori, torneo);
 
@@ -46,17 +46,12 @@ public class Main {
         base.add(new Giocatore("Ben Shelton", 0, 0, 0, 0, 65, 50, 60)); //giocatore 22
         base.add(new Giocatore("Alex De Minaur", 0, 0, 0, 0, 70, 75, 80)); //giocatore 23
         base.add(new Giocatore("Rod Laver", 3, 2, 4, 2, 75, 85, 80)); //giocatore 24
-
-        for (int i = 5; i <= 24; i++) {
-            base.add(new Giocatore("Giocatore" + i,
-                    (int)(Math.random()*2),    // AustralianOpen
-                    (int)(Math.random()*2),    // RolandGarros
-                    (int)(Math.random()*2),    // Wimbledon
-                    (int)(Math.random()*2),    // USOpen
-                    Math.random()*100,         // percentTerra
-                    Math.random()*100,         // percentErba
-                    Math.random()*100));       // percentCemento
-        }
+        base.add(new Giocatore("Jimmy Connors", 0, 0, 2, 5, 70, 84, 82)); //giocatore 25
+        base.add(new Giocatore("Stefan Edberg", 2, 0, 2, 2, 65, 85, 80)); //giocatore 26
+        base.add(new Giocatore("Ivan Lendl", 2, 3, 0, 3, 81, 65, 85)); //giocatore 27
+        base.add(new Giocatore("Boris Becker", 2, 0, 3, 1, 55, 85, 75)); //giocatore 28
+        base.add(new Giocatore("Guillermo Vilas", 2, 1, 0, 1, 85, 60, 70)); //giocatore 29
+        base.add(new Giocatore("ken Rosewall", 4, 2, 0, 2, 75, 85, 78)); //giocatore 30
         return base;
     }
 }
