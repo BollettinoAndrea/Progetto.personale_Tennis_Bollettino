@@ -45,7 +45,7 @@ public class Main {
         base.add(new Giocatore("David Ferrer", 0, 0, 0, 0, 76, 60, 70)); //giocatore 21
         base.add(new Giocatore("Ben Shelton", 0, 0, 0, 0, 65, 50, 60)); //giocatore 22
         base.add(new Giocatore("Alex De Minaur", 0, 0, 0, 0, 70, 75, 80)); //giocatore 23
-        base.add(new Giocatore("Andrea Bollettino", 0, 0, 0, 0, 85, 33, 70)); //giocatore 24
+        base.add(new Giocatore("Rod Laver", 3, 2, 4, 2, 75, 85, 80)); //giocatore 24
 
         for (int i = 5; i <= 24; i++) {
             base.add(new Giocatore("Giocatore" + i,
