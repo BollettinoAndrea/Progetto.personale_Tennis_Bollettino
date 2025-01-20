@@ -6,17 +6,17 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         GestoreTorneo gestore = new GestoreTorneo();
 
-        ArrayList<Giocatore> listaGiocatori = creaGiocatoriDiBase();
+            ArrayList<Giocatore> listaGiocatori = creaGiocatoriDiBase();
 
-        String torneo = gestore.sceltaTorneo(sc);
+            String torneo = gestore.sceltaTorneo(sc);
 
-        gestore.visualizzaVincitori(listaGiocatori, torneo);
+            gestore.visualizzaVincitori(listaGiocatori, torneo);
 
-        gestore.inserisciNuoviGiocatori(listaGiocatori, 2, sc);
+            gestore.inserisciNuoviGiocatori(listaGiocatori, 0, sc);
 
-        gestore.simulaTorneo(listaGiocatori, torneo);
+            gestore.simulaTorneo(listaGiocatori, torneo);
 
-        sc.close();
+            sc.close();
     }
 
     private static ArrayList<Giocatore> creaGiocatoriDiBase() {
@@ -39,9 +39,9 @@ public class Main {
         base.add(new Giocatore("Juan Martìn Del Potro", 0, 0, 0, 1, 70, 70, 72)); //giocatore 15
         base.add(new Giocatore("Fabio Fognini", 0, 0, 0, 0, 54, 33, 45)); //giocatore 16
         base.add(new Giocatore("Adriano Panatta", 0, 1, 0, 0, 65, 50, 55)); //giocatore 17
-        base.add(new Giocatore("Dominic thiem", 0, 0, 0, 1, 76, 50, 65)); //giocatore 18
+        base.add(new Giocatore("Dominic Thiem", 0, 0, 0, 1, 76, 50, 65)); //giocatore 18
         base.add(new Giocatore("Mattia Arnaldi", 0, 0, 0, 0, 65, 50, 60)); //giocatore 19
-        base.add(new Giocatore("Nick Kyrgios", 0, 0, 0, 0, 55, 64, 64)); //giocatore 20
+        base.add(new Giocatore("Lorenzo Sonego", 0, 0, 0, 0, 100, 100, 100)); //giocatore 20
         base.add(new Giocatore("David Ferrer", 0, 0, 0, 0, 76, 60, 70)); //giocatore 21
         base.add(new Giocatore("Ben Shelton", 0, 0, 0, 0, 65, 50, 60)); //giocatore 22
         base.add(new Giocatore("Alex De Minaur", 0, 0, 0, 0, 70, 75, 80)); //giocatore 23
@@ -52,6 +52,8 @@ public class Main {
         base.add(new Giocatore("Boris Becker", 2, 0, 3, 1, 55, 85, 75)); //giocatore 28
         base.add(new Giocatore("Guillermo Vilas", 2, 1, 0, 1, 85, 60, 70)); //giocatore 29
         base.add(new Giocatore("ken Rosewall", 4, 2, 0, 2, 75, 85, 78)); //giocatore 30
+        base.add(new Giocatore("Mats Wilander", 3, 3, 0, 1, 80, 70, 85)); //giocatore 31
+        base.add(new Giocatore("Andrea Bollettino", 0, 0, 0, 0, 99, 99, 99)); //giocatore 32
         return base;
     }
 }
